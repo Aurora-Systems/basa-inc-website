@@ -11,11 +11,11 @@ export default function Hero() {
 
   const backgroundImages = [
     {
-      url: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209230.jpg",
+      url: "https://ngratesc.sirv.com/basainc/pexels-kindelmedia-8487733.jpg",
       alt: "Mining Equipment Operations",
     },
     {
-      url: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209230.jpg",
+      url: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209719.jpg",
       alt: "Personal Protective Equipment",
     },
     {
@@ -95,7 +95,7 @@ export default function Hero() {
             <p className="text-lg md:text-xl text-white/90 font-medium tracking-wide uppercase pt-5">The World is Yours</p>
           </div>
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-1 leading-tight">
             <span className="block">FUTURE OF</span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-blue via-white to-primary-red">
               DISTRIBUTION
@@ -103,7 +103,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Pioneering excellence in mining equipment, PPE, medical sundries, and pharmaceuticals. Where innovation
+            Pioneering excellence in mining equipment, PPE, medical sundries, chemicals, adhesives and pharmaceuticals. Where innovation
             meets reliability.
           </p>
 
@@ -134,7 +134,7 @@ export default function Hero() {
       </div>
 
       {/* Glass Morphism Cards */}
-      <div className="absolute bottom-20 left-10 hidden lg:block z-30">
+      <div className="absolute bottom-20 left-10 hidden lg:block z-30 ">
         <div className="bg-white/90 backdrop-blur-2xl rounded-2xl p-6 border border-white/40 max-w-xs shadow-2xl">
           <h3 className="text-gray-900 font-semibold mb-2">Global Reach</h3>
           <p className="text-gray-600 text-sm">Serving clients across 50+ countries worldwide</p>

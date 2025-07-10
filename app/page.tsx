@@ -91,8 +91,8 @@ export default function HomePage() {
   const stats = [
     { number: "50+", label: "Countries Served", icon: Globe },
     { number: "1000+", label: "Happy Clients", icon: Users },
-    { number: "25+", label: "Years Experience", icon: Award },
-    { number: "99.9%", label: "Uptime Guarantee", icon: TrendingUp },
+    { number: "100%", label: "Quality Guranteed", icon: Award },
+  
   ]
 
   const testimonials = [
@@ -169,16 +169,19 @@ export default function HomePage() {
                   title: "Global Mining Operations",
                   desc: "State-of-the-art equipment serving mining operations worldwide",
                   alt: "Mining Operations",
+                  img:"https://ngratesc.sirv.com/basainc/mining.avif"
                 },
                 {
                   title: "Safety First",
                   desc: "Premium PPE ensuring maximum protection for workers",
                   alt: "Safety Equipment",
+                  img:"https://ngratesc.sirv.com/basainc/pexels-pixabay-209719.jpg"
                 },
                 {
                   title: "Healthcare Excellence",
                   desc: "Medical supplies supporting healthcare facilities globally",
                   alt: "Medical Facilities",
+                  img:"https://ngratesc.sirv.com/basainc/medical.avif"
                 },
               ].map((item, index) => (
                 <FadeInSection key={item.title} delay={index * 200}>
@@ -186,7 +189,7 @@ export default function HomePage() {
                     <CardContent className="p-0">
                       <div className="aspect-video relative overflow-hidden rounded-t-lg">
                         <img
-                          src="/placeholder.svg?height=300&width=400"
+                          src={`${item.img}?height=300&width=400`}
                           alt={item.alt}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                         />
@@ -222,7 +225,7 @@ export default function HomePage() {
                     </span>
                   </h2>
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    For over two decades, Basa Inc has been at the forefront of industrial distribution, serving as the
+                    Basa Inc has been at the forefront of industrial distribution, serving as the
                     bridge between innovation and implementation. We specialize in delivering world-class solutions
                     across mining, safety, medical, pharmaceutical, and chemical sectors.
                   </p>
@@ -247,13 +250,13 @@ export default function HomePage() {
               </FadeInSection>
               <FadeInSection direction="right" delay={200}>
                 <div className="relative">
-                  <div className="bg-white/60 backdrop-blur-2xl rounded-3xl p-8 border border-white/30 shadow-2xl">
+                  <div className="bg-white/60 backdrop-blur-2xl rounded-3xl  border border-white/30 shadow-2xl">
                     <img
-                      src="/placeholder.svg?height=400&width=500"
+                      src="https://ngratesc.sirv.com/basainc/unnamed.webp?height=400&width=500"
                       alt="Basa Inc Headquarters"
-                      className="w-full h-80 object-cover rounded-2xl mb-6"
-                    />
-                    <div className="text-center">
+                      className="w-full h-80 object-cover rounded-top rounded-top-3 mb-6"
+                    /> 
+                    <div className="text-center pb-3">
                       <h3 className="text-2xl font-bold text-gray-900 mb-2">Global Headquarters</h3>
                       <p className="text-gray-600">Leading innovation from our state-of-the-art facility</p>
                     </div>
@@ -280,7 +283,9 @@ export default function HomePage() {
                 Our commitment to excellence is reflected in our impressive track record
               </p>
             </FadeInSection>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="flex flex-row justify-center">
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
               {stats.map((stat, index) => {
                 const Icon = stat.icon
                 return (
@@ -298,6 +303,8 @@ export default function HomePage() {
                 )
               })}
             </div>
+                        </div>
+
           </div>
         </section>
       </FadeInSection>
@@ -323,13 +330,17 @@ export default function HomePage() {
                 const Icon = feature.icon
                 return (
                   <FadeInSection key={feature.title} delay={index * 150}>
-                    <Card className="bg-white/60 backdrop-blur-2xl border-white/30 shadow-2xl hover:shadow-3xl transition-all duration-500 group hover:scale-105">
-                      <CardContent className="p-8 text-center">
-                        <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-primary-blue/20 to-primary-red/20 backdrop-blur-sm rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <Card className="bg-white/60 backdrop-blur-2xl   border-white/30 shadow-2xl hover:shadow-3xl transition-all duration-500 group hover:scale-105">
+                      <CardContent className="p-8 text-center ">
+                        
+                        <div className="w-20  h-16 mx-auto mb-6 bg-gradient-to-br from-primary-blue/20 to-primary-red/20 backdrop-blur-sm rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                           <Icon className="h-8 w-8 text-primary-blue group-hover:text-primary-red transition-colors duration-300" />
                         </div>
+                        <div style={{height:"21vh"}}>
                         <h3 className="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
                         <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                        </div>
+                       
                       </CardContent>
                     </Card>
                   </FadeInSection>

@@ -40,7 +40,7 @@ export default function IndustryCard({ industry, index }: IndustryCardProps) {
             className={`absolute inset-0 bg-gradient-to-br ${industry.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
           ></div>
 
-          <div className="relative z-10">
+          <div className="relative  z-10" style={{height:"55vh"}}>
             {/* Icon */}
             <div className="mb-6 relative">
               <div className="w-20 h-20 mx-auto bg-gradient-to-br from-primary-blue/20 to-primary-red/20 backdrop-blur-sm rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 border border-white/30 shadow-xl">
