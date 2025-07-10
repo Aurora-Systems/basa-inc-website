@@ -17,8 +17,8 @@ export const contactInfo = {
       { label: "Support", email: "support@basainco.com" },
     ],
     address: {
-      street: "123 Industrial Boulevard",
-      city: "Harare",
+      street: "Office No. 1 NSSA Building",
+      city: "Cnr Julius Nyerere & Sam Nujoma",
       state: "Harare",
       zip: "00000",
       country: "Zimbabwe",
