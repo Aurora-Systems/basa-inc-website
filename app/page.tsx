@@ -26,6 +26,7 @@ import IndustryCard from "@/components/industry-card"
 import Footer from "@/components/footer"
 import FadeInSection from "@/components/fade-in-section"
 
+
 export default function HomePage() {
   const industries = [
     {

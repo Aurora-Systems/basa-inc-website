@@ -39,13 +39,12 @@ export default function Footer() {
             {/* Company Info */}
             <div className="lg:col-span-1">
               <div className="mb-6">
+
                 <Link href="/" className="text-2xl font-bold">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-blue to-primary-red">
-                    BASA
-                  </span>
-                  <span className="text-white ml-1">INC</span>
+                  <img src="https://ngratesc.sirv.com/basainc/logo_light.png" width={"100"}/>
+                  
                 </Link>
-                <p className="text-primary-blue font-medium mt-2">{contactInfo.company.tagline}</p>
+                <p className="text-white font-medium mt-2">{contactInfo.company.tagline}</p>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">{contactInfo.company.description}</p>
 
