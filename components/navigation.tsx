@@ -11,7 +11,7 @@ export default function Navigation() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
-  const timeoutRef = useRef<NodeJS.Timeout>()
+  const timeoutRef:any = useRef<NodeJS.Timeout>(null)
 
   const navItems = [
     { href: "/", label: "Home" },
@@ -103,13 +103,11 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-2xl border-b border-white/20 shadow-lg">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex  items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-blue to-primary-red">
-              BASA
-            </span>
-            <span className="text-gray-900 ml-1">INC</span>
+          <span><img src="https://ngratesc.sirv.com/basainc/logo.png" width="50"/></span>
+           
           </Link>
 
           {/* Desktop Navigation */}

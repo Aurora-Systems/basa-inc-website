@@ -11,23 +11,23 @@ export default function Hero() {
 
   const backgroundImages = [
     {
-      url: "/placeholder.svg?height=1080&width=1920&text=Industrial+Mining+Equipment",
+      url: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209230.jpg",
       alt: "Mining Equipment Operations",
     },
     {
-      url: "/placeholder.svg?height=1080&width=1920&text=Safety+Equipment+PPE",
+      url: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209230.jpg",
       alt: "Personal Protective Equipment",
     },
     {
-      url: "/placeholder.svg?height=1080&width=1920&text=Medical+Healthcare+Facility",
+      url: "https://ngratesc.sirv.com/basainc/pexels-tara-winstead-7722672.jpg",
       alt: "Medical Sundries and Healthcare",
     },
     {
-      url: "/placeholder.svg?height=1080&width=1920&text=Pharmaceutical+Laboratory",
+      url: "https://ngratesc.sirv.com/basainc/pexels-chokniti-khongchum-1197604-2280571.jpg",
       alt: "Pharmaceutical Operations",
     },
     {
-      url: "/placeholder.svg?height=1080&width=1920&text=Global+Distribution+Network",
+      url: "https://ngratesc.sirv.com/basainc/pexels-cdc-library-3993241.jpg",
       alt: "Global Distribution Network",
     },
   ]
@@ -92,7 +92,7 @@ export default function Hero() {
         >
           {/* Motto */}
           <div className="mb-8">
-            <p className="text-lg md:text-xl text-white/90 font-medium tracking-wide uppercase">The World is Yours</p>
+            <p className="text-lg md:text-xl text-white/90 font-medium tracking-wide uppercase pt-5">The World is Yours</p>
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
@@ -129,9 +129,7 @@ export default function Hero() {
           </div>
 
           {/* Scroll Indicator */}
-          <div className="animate-bounce">
-            <ChevronDown className="h-8 w-8 text-white/60 mx-auto" />
-          </div>
+         
         </div>
       </div>
 
