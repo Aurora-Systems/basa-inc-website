@@ -400,7 +400,7 @@ export default function HomePage() {
               {processSteps.map((step, index) => (
                 <FadeInSection key={step.step} delay={index * 150}>
                   <Card className="bg-white/60 backdrop-blur-2xl border-white/30 shadow-2xl hover:shadow-3xl transition-all duration-500 relative hover:scale-105">
-                    <CardContent className="p-8 text-center">
+                    <CardContent className="p-8 text-center" style={{height:"40vh"}}>
                       <div className="text-6xl font-bold text-primary-blue/20 mb-4">{step.step}</div>
                       <h3 className="text-xl font-bold text-gray-900 mb-4">{step.title}</h3>
                       <p className="text-gray-600 leading-relaxed">{step.description}</p>
