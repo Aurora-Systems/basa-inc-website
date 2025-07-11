@@ -152,6 +152,7 @@ export default function IndustryPage(props: IndustryPageProps) {
                         
 
                         <div className="flex gap-2">
+                          <Link href={`https://wa.me/${contact_number}?text= Can i get a qoute for your ${product.name}`}>
                           <Button
                             size="sm"
                             className="flex-1 bg-primary-blue hover:bg-primary-red text-white transition-colors duration-300"
@@ -159,7 +160,7 @@ export default function IndustryPage(props: IndustryPageProps) {
                             <Phone className="h-4 w-4 mr-2" />
                             Quote
                           </Button>
-                        
+                        </Link>
                         </div>
                       </div>
                     </CardContent>
@@ -168,7 +169,7 @@ export default function IndustryPage(props: IndustryPageProps) {
               ))}
             </div>
             <div className="pt-10 text-center">
-              <Link href={`https://wa.me/${contact_number}`}><Button className="flex-1 bg-primary-blue hover:bg-primary-red text-white transition-colors duration-300">View Mining All Products</Button></Link>
+              <Link href={`https://wa.me/${contact_number}?text=I want to view all your ${title} products`}><Button className="flex-1 bg-primary-blue hover:bg-primary-red text-white transition-colors duration-300">View All Products</Button></Link>
             </div>
           </div>
         </section>
