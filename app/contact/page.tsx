@@ -128,6 +128,17 @@ export default function ContactPage() {
 
                     />
                   </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-600 mb-2">Phone Number</label>
+                    <Input
+                      type="tel"
+                      className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500"
+                      placeholder="+263xxxxxxxx"
+                                              name="phone"
+                                              required
+
+                    />
+                  </div>
 
                   <div>
                     <label className="block text-sm font-medium text-gray-600 mb-2">Company</label>
