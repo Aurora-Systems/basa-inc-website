@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -6,8 +7,14 @@ import { Mail, MapPin, Phone } from "lucide-react"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import { contactInfo } from "@/lib/contact-info"
+import { FormEvent, useRef, useState } from "react"
+import emailjs from "@emailjs/browser"
+import { public_key, service_id, template_id } from "@/components/email_js"
 
 export default function ContactPage() {
+   const [loading, set_loading] = useState<boolean>(false)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const form:any = useRef(null);
   const contactInfoData = [
     {
       icon: Phone,
@@ -28,6 +35,32 @@ export default function ContactPage() {
       ],
     },
   ]
+
+  
+
+  const sendEmail = (e:FormEvent) => {
+    e.preventDefault();
+    set_loading(true)
+    console.log(e)
+    emailjs
+      .sendForm(service_id, template_id, form.current, {
+        publicKey: public_key,
+      })
+      .then(
+        () => {
+          alert("Message Sent Successfully");
+          form.current.reset()
+        },
+        (error) => {
+          console.log(error)
+          alert("Message Not Sent");
+
+        },
+      ).finally(()=>{
+        set_loading(false)
+      })
+  };
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -61,13 +94,15 @@ export default function ContactPage() {
             <Card className="bg-white/80 backdrop-blur-xl border-gray-200 shadow-lg">
               <CardContent className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-8">Send us a Message</h2>
-                <form className="space-y-6">
+                <form className="space-y-6" ref={form} onSubmit={sendEmail}>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-medium text-gray-600 mb-2">First Name</label>
                       <Input
                         className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500"
                         placeholder="John"
+                        name="first_name"
+                        required
                       />
                     </div>
                     <div>
@@ -75,6 +110,9 @@ export default function ContactPage() {
                       <Input
                         className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500"
                         placeholder="Doe"
+                                                name="last_name"
+                                                required
+
                       />
                     </div>
                   </div>
@@ -85,6 +123,9 @@ export default function ContactPage() {
                       type="email"
                       className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500"
                       placeholder="john@company.com"
+                                              name="email"
+                                              required
+
                     />
                   </div>
 
@@ -93,13 +134,17 @@ export default function ContactPage() {
                     <Input
                       className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500"
                       placeholder="Your Company"
+                                              name="company"
+                                              required
+
                     />
                   </div>
 
                   <div>
                     <label className="block text-sm font-medium text-gray-600 mb-2">Industry Interest</label>
-                    <select className="w-full bg-gray-50 border border-gray-300 rounded-md px-3 py-2 text-gray-900">
-                      <option value="">Select an industry</option>
+                    <select                         name="industry"
+ className="w-full bg-gray-50 border border-gray-300 rounded-md px-3 py-2 text-gray-900" required>
+                      <option >Select an industry</option>
                       <option value="mining">Mining Equipment</option>
                       <option value="ppe">Personal Protective Equipment</option>
                       <option value="medical">Medical Sundries</option>
@@ -113,11 +158,13 @@ export default function ContactPage() {
                     <Textarea
                       className="bg-gray-50 border-gray-300 text-gray-900 placeholder:text-gray-500 min-h-[120px]"
                       placeholder="Tell us about your project or requirements..."
+                                              name="message" required
+
                     />
                   </div>
 
-                  <Button className="w-full bg-gradient-to-r from-primary-blue to-primary-red hover:from-primary-red hover:to-primary-blue text-white">
-                    Send Message
+                  <Button disabled={loading} className="w-full bg-gradient-to-r from-primary-blue to-primary-red hover:from-primary-red hover:to-primary-blue text-white">
+                    {loading?"Sending...":"Send Message"}
                   </Button>
                 </form>
               </CardContent>
