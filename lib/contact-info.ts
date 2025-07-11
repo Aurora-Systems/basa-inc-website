@@ -7,11 +7,11 @@ export const contactInfo = {
   },
   contact: {
     phones: [
-      { label: "Main Office", number: "+263 77 374 9881" },
-      { label: "Sales", number: "+263 71 588 2177" },
+      // { label: "Main Office", number: "+263 77 374 9881" },
+      { label: "Sales", number: "+263 71 588 2177" }
     ],
     emails: [
-            { label: "Admin", email: "admin@basainco.com" },
+      { label: "Admin", email: "admin@basainco.com" },
       { label: "General", email: "info@basainco.com" },
       { label: "Sales", email: "sales@basainco.com" },
       { label: "Support", email: "support@basainco.com" },
@@ -44,12 +44,12 @@ export const contactInfo = {
   ],
   quickLinks: [
     { name: "About Us", href: "/about" },
-    { name: "Our Industries", href: "#industries" },
+    // { name: "Our Industries", href: "#industries" },
     { name: "Contact", href: "/contact" },
-    { name: "Blog", href: "/blog" },
+    { name: "Blog", href: "https://basainc.substack.com/" },
     { name: "Careers", href: "/careers" },
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Service", href: "/terms" },
+    // { name: "Privacy Policy", href: "/privacy" },
+    // { name: "Terms of Service", href: "/terms" },
   ],
 }
 

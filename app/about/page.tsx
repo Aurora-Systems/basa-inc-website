@@ -13,21 +13,25 @@ export default function AboutPage() {
 
   const values = [
     {
-      title: "Innovation",
-      description: "Constantly pushing boundaries to deliver cutting-edge solutions that transform industries.",
+      title: "Ownership Mentality",
+      description: "We take responsibility for our work, our decisions, and the impact we have on our colleagues and customers",
     },
     {
-      title: "Reliability",
-      description: "Building trust through consistent quality and dependable service across all our operations.",
+      title: "Growth Mindset",
+      description: "We are committed to continuos learning and personal development for both our employees and the company as a whole.",
     },
     {
-      title: "Excellence",
-      description: "Maintaining the highest standards in everything we do, from products to customer service.",
+      title: "Holistic Impact",
+      description: "We consider the broader impact of our actiobns on all stakeholders the community and the environment.",
     },
     {
-      title: "Sustainability",
-      description: "Committed to environmentally responsible practices that benefit our planet and future generations.",
+      title: "Dynamic Adapatability",
+      description: "We embrace change innovation and agility to thrive in a rapidly evolving business landscape.",
     },
+    {
+      title: "Trust & Transparency",
+      description: "We build trust with our employees, customers and partners through open communication, honesty and integrity."
+    }
   ]
 
   return (
@@ -52,14 +56,13 @@ export default function AboutPage() {
             </span>
           </h1>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            For over two decades, we've been at the forefront of industrial distribution, delivering excellence across
-            mining, safety, medical, and pharmaceutical sectors.
+            Maintaining top-noth services is crucial when it comes to our products. Due to the constant requirement for safety and quality. It is important that we uphold high standards and internal policies. Our industry is a high-risk industry because of the need for constant quality control and safety. Consequently, BASA Inc has strict policies handling, distribution and surrounding storage.
           </p>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 px-4">
+      {/* <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => {
@@ -78,7 +81,7 @@ export default function AboutPage() {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Story Section */}
       <section className="py-20 px-4">
@@ -88,7 +91,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in 1999, Basa Inc began as a vision to revolutionize industrial distribution. What started as
+                 Basa Inc began as a vision to revolutionize industrial distribution. What started as
                   a small operation has grown into a global powerhouse, serving clients across four critical industries.
                 </p>
                 <p>
@@ -104,11 +107,12 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-8 border border-gray-200 shadow-lg">
-                <div className="aspect-video bg-gradient-to-br from-primary-blue/20 to-primary-red/20 rounded-2xl flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-6xl font-bold text-gray-900 mb-2">25+</div>
-                    <div className="text-gray-600">Years of Excellence</div>
-                  </div>
+                <div className="aspect-video bg-gradient-to-br from-primary-blue/20 to-primary-red/20 rounded-2xl flex items-center justify-center" style={{
+                  backgroundImage:`url("https://ngratesc.sirv.com/basainc/Untitled%20design%20(4).png")`,
+                  backgroundSize:"cover",
+                  backgroundPosition:"center",
+                  backgroundRepeat:"no-repeat"
+                }}>
                 </div>
               </div>
             </div>

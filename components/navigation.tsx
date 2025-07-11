@@ -16,7 +16,7 @@ export default function Navigation() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/blog", label: "Blog" },
+    { href: "https://basainc.substack.com/", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ]
 

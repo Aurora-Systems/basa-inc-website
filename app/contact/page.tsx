@@ -103,7 +103,8 @@ export default function ContactPage() {
                       <option value="mining">Mining Equipment</option>
                       <option value="ppe">Personal Protective Equipment</option>
                       <option value="medical">Medical Sundries</option>
-                      <option value="pharmaceutical">Pharmaceuticals</option>
+                      <option value="pharmaceutical">Pharmaceutical Consumables</option>
+                      <option value="chemicals & adhesives">Chemicals & Adhesives</option>
                     </select>
                   </div>
 

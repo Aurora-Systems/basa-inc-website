@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <FloatingWhatsApp phoneNumber='+263773749881' accountName='Basa Inc'  avatar='https://ngratesc.sirv.com/basainc/logo_light.png'/>
+        <FloatingWhatsApp phoneNumber='+263715882177' accountName='Basa Inc'  avatar='https://ngratesc.sirv.com/basainc/logo_light.png'/>
       </body>
     </html>
   )
