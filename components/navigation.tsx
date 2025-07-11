@@ -194,10 +194,11 @@ export default function Navigation() {
                 </div>
               )}
             </div>
-
+              <Link href="/contact">
             <Button className="bg-primary-blue hover:bg-primary-red text-white transition-colors duration-300 shadow-lg hover:shadow-xl">
               Get Quote
             </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -257,10 +258,11 @@ export default function Navigation() {
                   </div>
                 )}
               </div>
-
+<Link href="/contact">
               <Button className="bg-primary-blue hover:bg-primary-red text-white transition-colors duration-300 mt-4 shadow-lg">
                 Get Quote
               </Button>
+              </Link>
             </div>
           </div>
         )}
