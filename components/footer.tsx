@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -6,27 +7,24 @@ import Link from "next/link"
 import { contactInfo, getFormattedAddress } from "@/lib/contact-info"
 
 export default function Footer() {
+  
+  
   return (
     <footer className="bg-gray-900 text-white">
       {/* Newsletter Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-primary-blue to-primary-red">
         <div className="container mx-auto">
           <Card className="bg-white/10 backdrop-blur-xl border-white/20 max-w-4xl mx-auto">
-            <CardContent className="p-8 text-center">
+            <CardContent className="p-2 text-center">
               <h3 className="text-3xl font-bold text-white mb-4">Stay Connected</h3>
               <p className="text-white/90 mb-8 max-w-2xl mx-auto">
                 Subscribe to our newsletter for the latest industry insights, product updates, and exclusive offers.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                <Input
-                  type="email"
-                  placeholder="Enter your email address"
-                  className="flex-1 bg-white/20 border-white/30 text-white placeholder:text-white/70"
-                />
-                <Button className="bg-white text-primary-blue hover:bg-white/90 transition-colors duration-300">
-                  Subscribe <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+              <form >
+              <div className="flex flex-col justify-content-center justify-center sm:flex-row gap-4 max-w-md mx-auto">
+                <iframe src="https://basainc.substack.com/embed"style={{backgroundColor:"none",borderRadius:"7px", width:"100%"}}  frameBorder="0" scrolling="no"></iframe>
               </div>
+              </form>
             </CardContent>
           </Card>
         </div>

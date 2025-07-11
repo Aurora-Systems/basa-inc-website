@@ -53,7 +53,7 @@ export default function HomePage() {
     {
       icon: Pill,
       title: "Pharmaceuticals",
-      description: "Quality pharmaceutical products and medical solutions",
+      description: "Quality pharmaceutical consumable  products and medical solutions",
       gradient: "from-primary-red/20 to-primary-blue/20",
       href: "/industries/pharmaceuticals",
     },
@@ -98,15 +98,15 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      name: "Sarah Mitchell",
-      company: "Global Mining Corp",
+      name: "Sarah Mugabe",
+      company: "Tranex Minex",
       role: "Operations Director",
-      content: "Basa Inc has been our trusted partner for over 10 years. Their reliability and quality are unmatched.",
+      content: "Basa Inc has been our trusted partner . Their reliability and quality are unmatched. They provide durable equipment",
       rating: 5,
     },
     {
-      name: "Dr. James Wilson",
-      company: "Metropolitan Hospital",
+      name: "Dr. James Mandizha",
+      company: "Mandizha Group of Hospitals",
       role: "Chief Medical Officer",
       content: "The medical supplies from Basa Inc have consistently met our highest standards for patient care.",
       rating: 5,

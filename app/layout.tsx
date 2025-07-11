@@ -16,10 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body>
         {children}
         <FloatingWhatsApp phoneNumber='+263715882177' accountName='Basa Inc'  avatar='https://ngratesc.sirv.com/basainc/logo_light.png'/>
       </body>
+
     </html>
   )
 }
