@@ -45,17 +45,10 @@ export default function HomePage() {
     },
     {
       icon: Heart,
-      title: "Medical Sundries",
+      title: "Medical & Pharamaceautical Equipment & Consumables",
       description: "Essential medical supplies and equipment for healthcare facilities",
       gradient: "from-primary-blue/20 to-primary-red/20",
       href: "/industries/medical",
-    },
-    {
-      icon: Pill,
-      title: "Pharmaceuticals",
-      description: "Quality pharmaceutical consumable  products and medical solutions",
-      gradient: "from-primary-red/20 to-primary-blue/20",
-      href: "/industries/pharmaceuticals",
     },
     {
       icon: FlaskConical,
@@ -370,7 +363,7 @@ export default function HomePage() {
               </p>
             </FadeInSection>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {industries.map((industry, index) => (
                 <FadeInSection key={industry.title} delay={index * 100}>
                   <IndustryCard industry={industry} index={index} />

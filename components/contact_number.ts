@@ -1,0 +1,1 @@
+export const contact_number:string  = "+263715882177"

@@ -38,8 +38,7 @@ export const contactInfo = {
   industries: [
     { name: "Mining Equipment", href: "/industries/mining" },
     { name: "Personal Protective Equipment", href: "/industries/ppe" },
-    { name: "Medical Sundries", href: "/industries/medical" },
-    { name: "Pharmaceuticals", href: "/industries/pharmaceuticals" },
+    { name: "Medical & Pharmaceautical Equipment & Consumables", href: "/industries/medical" },
     { name: "Chemicals and Adhesives", href: "/industries/chemicals" },
   ],
   quickLinks: [
