@@ -3,7 +3,7 @@ export const contactInfo = {
     name: "Basa Inc",
     tagline: "The World is Yours",
     description:
-      "Pioneering excellence in mining equipment, PPE, medical sundries, pharmaceuticals, and chemical solutions.",
+      "Pioneering excellence in mining equipment, PPE, medical & pharmaceutical equipment & consumables, and chemical solutions.",
   },
   contact: {
     phones: [

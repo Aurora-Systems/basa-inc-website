@@ -103,7 +103,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Pioneering excellence in mining equipment, PPE, medical sundries, chemicals, adhesives and pharmaceuticals. Where innovation
+            Pioneering excellence in mining equipment, PPE, medical & pharmaceautical equipment & consumables, chemicals, and adhesives. Where innovation
             meets reliability.
           </p>
 
@@ -113,6 +113,7 @@ export default function Hero() {
               size="lg"
               className="bg-primary-blue hover:bg-primary-red text-white text-lg px-8 py-4 h-auto transition-colors duration-300 shadow-2xl hover:shadow-3xl"
             >
+              
               <Link href="/contact">
                 Explore Solutions <ArrowRight className="ml-2 h-6 w-6" />
               </Link>
