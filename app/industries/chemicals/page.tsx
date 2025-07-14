@@ -18,7 +18,7 @@ const chemicalsIndustryData: IndustryPageProps = {
     title: "Leading Chemical Solutions Provider",
     content:
       "Basa Inc has been a trusted supplier of industrial chemicals and cleaning solutions for over two decades. We understand the critical role that quality chemicals play in maintaining operational efficiency, safety, and cleanliness across various industries. Our comprehensive product range includes everything from powerful cleaning agents to specialized chemical compounds, all manufactured to the highest standards and backed by our commitment to safety and environmental responsibility.",
-    image: "/placeholder.svg?height=500&width=600&text=Chemical+Manufacturing",
+    image: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209230.jpg",
     highlights: [
       "Industrial-grade cleaning and sanitizing solutions",
       "Multi-purpose chemical compounds for various applications",
