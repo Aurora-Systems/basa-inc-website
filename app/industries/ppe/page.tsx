@@ -172,6 +172,20 @@ const ppeIndustryData: IndustryPageProps = {
         "Moisture-wicking lining",
       ],
     },
+     {
+      id: "safety-boots-sb-steel-gum",
+      name: "Gum boots",
+      description: "Protection from the mud and rain, quality gum boots for farmers.",
+      image: "https://ngratesc.sirv.com/basainc/2148028896.jpg",
+      category: "Foot Protection",
+      features: [
+        "ASTM F2413 certified",
+        "Steel toe protection",
+        "Slip-resistant outsole",
+        "Electrical hazard protection",
+        "Moisture-wicking lining",
+      ],
+    },
   ],
 
   applications: {

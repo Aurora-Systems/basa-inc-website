@@ -93,7 +93,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: "Industrial Dishwasher Detergent",
       description:
         "High-performance detergent formulated for commercial and industrial dishwashing systems. Provides excellent cleaning power while being gentle on equipment.",
-      image: "https://ngratesc.sirv.com/basainc/WhatsApp%20Image%202025-07-06%20at%2012.47.09_01e54468.jpg",
+      image: "https://ngratesc.sirv.com/basainc/2.png",
       category: "Cleaning Solutions",
       features: [
         "Low-foam formula for machine efficiency",
@@ -109,7 +109,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: "Multi-Purpose Cleaner",
       description:
         "Versatile cleaning solution suitable for multiple surfaces and applications. Ideal for offices, healthcare facilities, and industrial environments.",
-      image: "https://ngratesc.sirv.com/basainc/WhatsApp%20Image%202025-07-06%20at%2012.47.08_9a0435c3.jpg",
+      image: "https://ngratesc.sirv.com/basainc/1.png",
       category: "Cleaning Solutions",
       features: [
         "Safe on multiple surface types",
@@ -125,7 +125,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: " Hard Surface Cleaner",
       description:
         "Specialized cleaner for hard surfaces including floors, walls, and equipment. Removes tough stains and buildup while protecting surface integrity.",
-      image: "https://ngratesc.sirv.com/basainc/WhatsApp%20Image%202025-07-06%20at%2012.47.09_f34d1722.jpg",
+      image: "https://ngratesc.sirv.com/basainc/3.png",
       category: "Specialty Cleaners",
       features: [
         "Effective on concrete, metal, and tile",
