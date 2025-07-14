@@ -54,24 +54,14 @@ export default function Footer() {
                 >
                   <Linkedin className="h-5 w-5" />
                 </Link>
-                <Link
-                  href={contactInfo.social.twitter}
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary-blue transition-colors duration-300"
-                >
-                  <Twitter className="h-5 w-5" />
-                </Link>
+                
                 <Link
                   href={contactInfo.social.facebook}
                   className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary-blue transition-colors duration-300"
                 >
                   <Facebook className="h-5 w-5" />
                 </Link>
-                <Link
-                  href={contactInfo.social.youtube}
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary-red transition-colors duration-300"
-                >
-                  <Youtube className="h-5 w-5" />
-                </Link>
+              
               </div>
             </div>
 

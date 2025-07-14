@@ -31,9 +31,8 @@ export const contactInfo = {
   },
   social: {
     linkedin: "https://linkedin.com/company/basainc",
-    twitter: "https://twitter.com/basainc",
-    facebook: "https://facebook.com/basainc",
-    youtube: "https://youtube.com/basainc",
+    facebook: "https://facebook.com/basainc"
+    
   },
   industries: [
     { name: "Mining Equipment", href: "/industries/mining" },
