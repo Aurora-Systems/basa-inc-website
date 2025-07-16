@@ -279,6 +279,97 @@ const medicalIndustryData: IndustryPageProps = {
         "Washable and reusable",
       ],
     },
+    {
+  id: "bin-liners-disposable",
+  name: "Disposable Bin Liners",
+  description:
+    "Durable disposable bin liners for hygienic waste collection in medical and industrial environments.",
+  image: "https://ngratesc.sirv.com/basainc/17177.jpg",
+  category: "Waste Management",
+  features: [
+    "Tear-resistant plastic",
+    "Leak-proof design",
+    "Standard and jumbo sizes",
+    "Color-coded options",
+    "Compatible with clinical bins",
+  ],
+},
+{
+  id: "wheelchair-standard",
+  name: "Standard Wheelchair",
+  description:
+    "Reliable mobility wheelchair with foldable frame and cushioned seating for patient comfort.",
+  image: "https://ngratesc.sirv.com/basainc/portrait-smiley-student-wheelchair.jpg",
+  category: "Mobility Aids",
+  features: [
+    "Sturdy steel frame",
+    "Foldable design",
+    "Comfort padded seat",
+    "Lockable rear wheels",
+    "Ergonomic hand grips",
+    "Adjustable footrests",
+  ],
+},
+{
+  id: "crutches-aluminum-pair",
+  name: "Aluminum Crutches (Pair)",
+  description:
+    "Lightweight adjustable crutches designed to provide stable walking support during recovery.",
+  image: "https://ngratesc.sirv.com/basainc/116357.jpg",
+  category: "Mobility Aids",
+  features: [
+    "Height-adjustable settings",
+    "Comfort underarm pads",
+    "Non-slip rubber tips",
+    "Light aluminum build",
+    "Available in adult and pediatric sizes",
+  ],
+},
+{
+  id: "drip-stand-adjustable",
+  name: "Adjustable Drip Stand",
+  description:
+    "Stable drip stand with adjustable height and multiple hook options for IV administration.",
+  image: "https://ngratesc.sirv.com/basainc/2149844630.jpg",
+  category: "Clinical Equipment",
+  features: [
+    "Stainless steel pole",
+    "Height adjustment knob",
+    "Four-wheel base",
+    "Multiple IV bag hooks",
+    "Easy to clean surface",
+  ],
+},
+{
+  id: "drug-cabinet-lockable",
+  name: "Lockable Drug Cabinet",
+  description:
+    "Secure drug cabinet with multiple compartments and locking mechanism for medication storage.",
+  image: "https://ngratesc.sirv.com/basainc/17177.jpg",
+  category: "Storage Solutions",
+  features: [
+    "Steel construction",
+    "Multiple internal shelves",
+    "Key lock system",
+    "Wall-mountable design",
+    "Powder-coated finish",
+  ],
+},
+{
+  id: "linen-savers-absorbent",
+  name: "Absorbent Linen Savers",
+  description:
+    "Disposable linen savers for protecting bedding and surfaces from spills and leaks.",
+  image: "https://ngratesc.sirv.com/basainc/2150756310.jpg",
+  category: "Hygiene Supplies",
+  features: [
+    "Highly absorbent core",
+    "Waterproof backing",
+    "Disposable design",
+    "Soft top layer",
+    "Available in multiple sizes",
+  ],
+}
   ],
 
   applications: {

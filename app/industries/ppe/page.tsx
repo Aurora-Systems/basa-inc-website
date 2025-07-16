@@ -186,7 +186,6 @@ const ppeIndustryData: IndustryPageProps = {
         "Moisture-wicking lining",
       ],
     },
-    ,
      {
       id: "pvc-aprons",
       name: "PVC Aprons",
@@ -200,7 +199,7 @@ const ppeIndustryData: IndustryPageProps = {
         "Electrical hazard protection",
         "Moisture-wicking lining",
       ],
-    },
+    }
   ],
 
   applications: {
