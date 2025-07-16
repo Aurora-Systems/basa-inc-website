@@ -186,6 +186,21 @@ const ppeIndustryData: IndustryPageProps = {
         "Moisture-wicking lining",
       ],
     },
+    ,
+     {
+      id: "pvc-aprons",
+      name: "PVC Aprons",
+      description: "Tough, waterproof, and built for messy work—protects against chemicals, oils, and splashes.",
+      image: "https://ngratesc.sirv.com/basainc/apron.jpg",
+      category: "Body Protection",
+      features: [
+        "ASTM F2413 certified",
+        "Steel toe protection",
+        "Slip-resistant outsole",
+        "Electrical hazard protection",
+        "Moisture-wicking lining",
+      ],
+    },
   ],
 
   applications: {
