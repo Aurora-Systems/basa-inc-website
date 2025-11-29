@@ -39,7 +39,7 @@ export default function Footer() {
               <div className="mb-6">
 
                 <Link href="/" className="text-2xl font-bold">
-                  <img src="https://ngratesc.sirv.com/basainc/logo_light.png" width={"100"}/>
+                  <img src="https://cdn.clipond.com/basainc/logo_light.png" width={"100"}/>
                   
                 </Link>
                 <p className="text-white font-medium mt-2">{contactInfo.company.tagline}</p>
