@@ -108,7 +108,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-8 border border-gray-200 shadow-lg">
                 <div className="aspect-video bg-gradient-to-br from-primary-blue/20 to-primary-red/20 rounded-2xl flex items-center justify-center" style={{
-                  backgroundImage:`url("https://ngratesc.sirv.com/basainc/Untitled%20design%20(4).png")`,
+                  backgroundImage:`url("https://cdn.clipond.com/basainc/Untitled%20design%20(4).png")`,
                   backgroundSize:"cover",
                   backgroundPosition:"center",
                   backgroundRepeat:"no-repeat"
