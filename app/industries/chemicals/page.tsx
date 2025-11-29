@@ -6,7 +6,7 @@ const chemicalsIndustryData: IndustryPageProps = {
   subtitle: "Chemical Industry",
   description:
     "Premium industrial chemicals, cleaning solutions, and adhesive products for commercial and industrial applications. From multi-purpose cleaners to specialized chemical compounds, we deliver quality solutions that meet the highest industry standards.",
-  heroImage: "https://ngratesc.sirv.com/basainc/pexels-chokniti-khongchum-1197604-2280571.jpg",
+  heroImage: "https://cdn.clipond.com/basainc/pexels-chokniti-khongchum-1197604-2280571.jpg",
 
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -18,7 +18,7 @@ const chemicalsIndustryData: IndustryPageProps = {
     title: "Leading Chemical Solutions Provider",
     content:
       "Basa Inc has been a trusted supplier of industrial chemicals and cleaning solutions for over two decades. We understand the critical role that quality chemicals play in maintaining operational efficiency, safety, and cleanliness across various industries. Our comprehensive product range includes everything from powerful cleaning agents to specialized chemical compounds, all manufactured to the highest standards and backed by our commitment to safety and environmental responsibility.",
-    image: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209230.jpg",
+    image: "https://cdn.clipond.com/basainc/pexels-pixabay-209230.jpg",
     highlights: [
       "Industrial-grade cleaning and sanitizing solutions",
       "Multi-purpose chemical compounds for various applications",
@@ -93,7 +93,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: "Industrial Dishwasher Detergent",
       description:
         "High-performance detergent formulated for commercial and industrial dishwashing systems. Provides excellent cleaning power while being gentle on equipment.",
-      image: "https://ngratesc.sirv.com/basainc/2.png",
+      image: "https://cdn.clipond.com/basainc/2.png",
       category: "Cleaning Solutions",
       features: [
         "Low-foam formula for machine efficiency",
@@ -109,7 +109,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: "Multi-Purpose Cleaner",
       description:
         "Versatile cleaning solution suitable for multiple surfaces and applications. Ideal for offices, healthcare facilities, and industrial environments.",
-      image: "https://ngratesc.sirv.com/basainc/1.png",
+      image: "https://cdn.clipond.com/basainc/1.png",
       category: "Cleaning Solutions",
       features: [
         "Safe on multiple surface types",
@@ -125,7 +125,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: " Hard Surface Cleaner",
       description:
         "Specialized cleaner for hard surfaces including floors, walls, and equipment. Removes tough stains and buildup while protecting surface integrity.",
-      image: "https://ngratesc.sirv.com/basainc/3.png",
+      image: "https://cdn.clipond.com/basainc/3.png",
       category: "Specialty Cleaners",
       features: [
         "Effective on concrete, metal, and tile",
@@ -141,7 +141,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: "Sodium Hypochlorite Bleach",
       description:
         "Professional-grade sodium hypochlorite bleach for sanitization, disinfection, and whitening applications in industrial and commercial settings.",
-      image: "https://ngratesc.sirv.com/basainc/2148781939.jpg",
+      image: "https://cdn.clipond.com/basainc/2148781939.jpg",
       category: "Sanitizing Agents",
       features: [
         "High-concentration active chlorine",
@@ -157,7 +157,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: " Toilet Paper",
       description:
         "High-quality commercial toilet paper designed for high-traffic facilities. Combines softness, strength, and absorbency for optimal user experience.",
-      image: "https://ngratesc.sirv.com/basainc/2148524904.jpg",
+      image: "https://cdn.clipond.com/basainc/2148524904.jpg",
       category: "Hygiene Products",
       features: [
         "2-ply construction for strength and comfort",
@@ -174,7 +174,7 @@ const chemicalsIndustryData: IndustryPageProps = {
       name: "Industrial Adhesive",
       description:
         "High-strength industrial adhesive suitable for bonding various materials including metals, plastics, and composites in demanding applications.",
-      image: "https://ngratesc.sirv.com/basainc/2149630000.jpg",
+      image: "https://cdn.clipond.com/basainc/2149630000.jpg",
       category: "Adhesives",
       features: [
         "Superior bonding strength",
