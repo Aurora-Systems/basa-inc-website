@@ -6,7 +6,7 @@ const medicalIndustryData: IndustryPageProps = {
   subtitle: "Healthcare Solutions",
   description:
     "Comprehensive medical supplies and equipment for healthcare facilities, emergency services, and medical training institutions. From basic first aid supplies to advanced medical equipment, we provide quality healthcare solutions that save lives.",
-  heroImage: "https://ngratesc.sirv.com/basainc/medical.avif",
+  heroImage: "https://cdn.clipond.com/basainc/medical.avif",
 
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -18,7 +18,7 @@ const medicalIndustryData: IndustryPageProps = {
     title: "Your Trusted Healthcare Supply Partner",
     content:
       "For over two decades, Basa Inc has been committed to supporting healthcare providers with reliable, high-quality medical supplies and equipment. We understand that in healthcare, quality and reliability can mean the difference between life and death. Our comprehensive range of medical sundries serves hospitals, clinics, emergency services, training institutions, and healthcare facilities worldwide, ensuring that medical professionals have access to the tools they need to provide exceptional patient care.",
-    image: "https://ngratesc.sirv.com/basainc/2148908406.jpg",
+    image: "https://cdn.clipond.com/basainc/2148908406.jpg",
     highlights: [
       "Emergency response and first aid equipment",
       "Surgical supplies and protective equipment",
@@ -93,7 +93,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "First Aid Box",
       description:
         "Comprehensive first aid kit containing essential medical supplies for workplace, home, and emergency use. Fully stocked with quality medical supplies.",
-      image: "https://ngratesc.sirv.com/basainc/2148908406.jpg",
+      image: "https://cdn.clipond.com/basainc/2148908406.jpg",
       category: "Emergency Supplies",
       features: [
         "50+ essential first aid items",
@@ -109,7 +109,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Trauma Bag",
       description:
         "Advanced trauma response bag equipped with critical care supplies for emergency medical services and first responders.",
-      image: "https://ngratesc.sirv.com/basainc/close-up-toy-car_1048944-3525894.jpg",
+      image: "https://cdn.clipond.com/basainc/close-up-toy-car_1048944-3525894.jpg",
       category: "Emergency Supplies",
       features: [
         "Advanced trauma care supplies",
@@ -125,7 +125,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Defibrillator",
       description:
         "Automated External Defibrillator with voice prompts and visual indicators for effective emergency cardiac care by trained and untrained users.",
-      image: "https://ngratesc.sirv.com/basainc/H7d4e1275fb844f4e97d903e1e048816eQ.jpg_720x720q50.avif",
+      image: "https://cdn.clipond.com/basainc/H7d4e1275fb844f4e97d903e1e048816eQ.jpg_720x720q50.avif",
       category: "Emergency Equipment",
       features: [
         "Fully automatic operation",
@@ -141,7 +141,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Surgical Gloves",
       description:
         "Premium latex surgical gloves providing superior tactile sensitivity and barrier protection for surgical procedures.",
-      image: "https://ngratesc.sirv.com/basainc/2148848614.jpg",
+      image: "https://cdn.clipond.com/basainc/2148848614.jpg",
       category: "Protective Equipment",
       features: [
         "Sterile, powder-free latex",
@@ -157,7 +157,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Bouffant Cap",
       description:
         "Lightweight, breathable disposable caps for maintaining hygiene standards in medical and food service environments.",
-      image: "https://ngratesc.sirv.com/basainc/2148525044.jpg",
+      image: "https://cdn.clipond.com/basainc/2148525044.jpg",
       category: "Protective Equipment",
       features: [
         "Non-woven polypropylene material",
@@ -173,7 +173,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "CPR Mask",
       description:
         "Professional-grade CPR mask with one-way valve for safe mouth-to-mouth resuscitation during emergency situations.",
-      image: "https://ngratesc.sirv.com/basainc/side-view-victim-with-oxygen-mask_23-2149478551.jpg",
+      image: "https://cdn.clipond.com/basainc/side-view-victim-with-oxygen-mask_23-2149478551.jpg",
       category: "Emergency Equipment",
       features: [
         "One-way valve prevents backflow",
@@ -189,7 +189,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Prestan Manikin",
       description:
         "Professional CPR training manikin with realistic chest compression feedback for effective resuscitation training programs.",
-      image: "https://ngratesc.sirv.com/basainc/medical-student-are-practicing_1157-42466.jpg",
+      image: "https://cdn.clipond.com/basainc/medical-student-are-practicing_1157-42466.jpg",
       category: "Training Equipment",
       features: [
         "Realistic chest compression feedback",
@@ -205,7 +205,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "BP Machine",
       description:
         "Accurate digital blood pressure monitor with large display and memory function for clinical and home use.",
-      image: "https://ngratesc.sirv.com/basainc/person-using-tensiometer-blood-pressure_23-2150456083.jpg",
+      image: "https://cdn.clipond.com/basainc/person-using-tensiometer-blood-pressure_23-2150456083.jpg",
       category: "Diagnostic Equipment",
       features: [
         "Automatic inflation and measurement",
@@ -221,7 +221,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Self-Loading Stretcher",
       description:
         "Advanced self-loading stretcher system for ambulances with hydraulic lifting mechanism for safe patient transport.",
-      image: "https://ngratesc.sirv.com/basainc/paramedic-giving-oxygen-injured-girl_107420-63759.jpg",
+      image: "https://cdn.clipond.com/basainc/paramedic-giving-oxygen-injured-girl_107420-63759.jpg",
       category: "Transport Equipment",
       features: [
         "Hydraulic self-loading system",
@@ -237,7 +237,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Medical Needles",
       description:
         "High-quality sterile needles in various gauges and lengths for different medical procedures and injections.",
-      image: "https://ngratesc.sirv.com/basainc/closeup-syringe_53876-30453.jpg",
+      image: "https://cdn.clipond.com/basainc/closeup-syringe_53876-30453.jpg",
       category: "Medical Supplies",
       features: [
         "Various gauges and lengths available",
@@ -252,7 +252,7 @@ const medicalIndustryData: IndustryPageProps = {
       id: "sutures-s-surgical",
       name: "Surgical Sutures",
       description: "Premium surgical sutures in various materials and sizes for wound closure and surgical procedures.",
-      image: "https://ngratesc.sirv.com/basainc/seu505_1.webp",
+      image: "https://cdn.clipond.com/basainc/seu505_1.webp",
       category: "Medical Supplies",
       features: [
         "Multiple suture materials available",
@@ -268,7 +268,7 @@ const medicalIndustryData: IndustryPageProps = {
       name: "Crepe Bandage",
       description:
         "High-quality elastic crepe bandages for wound dressing, compression therapy, and injury support applications.",
-      image: "https://ngratesc.sirv.com/basainc/rolled-bandage_23-2147612241.jpg",
+      image: "https://cdn.clipond.com/basainc/rolled-bandage_23-2147612241.jpg",
       category: "Wound Care",
       features: [
         "High elasticity and conformability",
@@ -284,7 +284,7 @@ const medicalIndustryData: IndustryPageProps = {
   name: "Disposable Bin Liners",
   description:
     "Durable disposable bin liners for hygienic waste collection in medical and industrial environments.",
-  image: "https://ngratesc.sirv.com/basainc/17177.jpg",
+  image: "https://cdn.clipond.com/basainc/17177.jpg",
   category: "Waste Management",
   features: [
     "Tear-resistant plastic",
@@ -299,7 +299,7 @@ const medicalIndustryData: IndustryPageProps = {
   name: "Standard Wheelchair",
   description:
     "Reliable mobility wheelchair with foldable frame and cushioned seating for patient comfort.",
-  image: "https://ngratesc.sirv.com/basainc/portrait-smiley-student-wheelchair.jpg",
+  image: "https://cdn.clipond.com/basainc/portrait-smiley-student-wheelchair.jpg",
   category: "Mobility Aids",
   features: [
     "Sturdy steel frame",
@@ -315,7 +315,7 @@ const medicalIndustryData: IndustryPageProps = {
   name: "Aluminum Crutches (Pair)",
   description:
     "Lightweight adjustable crutches designed to provide stable walking support during recovery.",
-  image: "https://ngratesc.sirv.com/basainc/116357.jpg",
+  image: "https://cdn.clipond.com/basainc/116357.jpg",
   category: "Mobility Aids",
   features: [
     "Height-adjustable settings",
@@ -330,7 +330,7 @@ const medicalIndustryData: IndustryPageProps = {
   name: "Adjustable Drip Stand",
   description:
     "Stable drip stand with adjustable height and multiple hook options for IV administration.",
-  image: "https://ngratesc.sirv.com/basainc/2149844630.jpg",
+  image: "https://cdn.clipond.com/basainc/2149844630.jpg",
   category: "Clinical Equipment",
   features: [
     "Stainless steel pole",
@@ -345,7 +345,7 @@ const medicalIndustryData: IndustryPageProps = {
   name: "Lockable Drug Cabinet",
   description:
     "Secure drug cabinet with multiple compartments and locking mechanism for medication storage.",
-  image: "https://ngratesc.sirv.com/basainc/17177.jpg",
+  image: "https://cdn.clipond.com/basainc/17177.jpg",
   category: "Storage Solutions",
   features: [
     "Steel construction",
@@ -360,7 +360,7 @@ const medicalIndustryData: IndustryPageProps = {
   name: "Absorbent Linen Savers",
   description:
     "Disposable linen savers for protecting bedding and surfaces from spills and leaks.",
-  image: "https://ngratesc.sirv.com/basainc/2150756310.jpg",
+  image: "https://cdn.clipond.com/basainc/2150756310.jpg",
   category: "Hygiene Supplies",
   features: [
     "Highly absorbent core",
