@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex justify-center align-center align-middle text-center font-bold">
           <div>
-            <img src="https://ngratesc.sirv.com/basainc/logo.png" alt="logo" width={"50"}/>
+            <img src="https://cdn.clipond.com/basainc/logo.png" alt="logo" width={"50"}/>
           </div>
           <div className="pt-2">
             <small >The World Is Yours</small>
