@@ -6,7 +6,7 @@ const miningIndustryData: IndustryPageProps = {
   subtitle: "Mining Industry",
   description:
     "Essential personal protective equipment for mining environments. From underground operations to surface works, we supply durable, safety-first gear that protects your workforce in challenging conditions.",
-  heroImage: "https://ngratesc.sirv.com/basainc/railroad-cargo-worker-checking-train-before-departure_308072-4750.avif",
+  heroImage: "https://cdn.clipond.com/basainc/railroad-cargo-worker-checking-train-before-departure_308072-4750.avif",
 
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -18,7 +18,7 @@ const miningIndustryData: IndustryPageProps = {
     title: "Protecting People in the Mining Industry",
     content:
       "At Basa Inc, we’re committed to safeguarding mining personnel. From deep underground shafts to open pit operations, our gear is designed to meet the highest standards for durability, comfort, and compliance. Whether it's head protection, respiratory safety, or visibility enhancement, our solutions empower your team to work with confidence.",
-    image: "https://ngratesc.sirv.com/basainc/mining.avif",
+    image: "https://cdn.clipond.com/basainc/mining.avif",
     highlights: [
       "Rechargeable cap lamps for low-light environments",
       "Hearing protection ear muffs for noisy sites",
@@ -98,7 +98,7 @@ const miningIndustryData: IndustryPageProps = {
     name: "Rechargeable Cap Lamp",
     description:
       "Ultra-bright cap lamp with long battery life and adjustable beam focus, ideal for low-visibility zones.",
-    image: "https://ngratesc.sirv.com/basainc/Corded-cap-lamp_SiriUS-LUX-with-folded-cable-web.jpg",
+    image: "https://cdn.clipond.com/basainc/Corded-cap-lamp_SiriUS-LUX-with-folded-cable-web.jpg",
     category: "Lighting",
     features: [
       "Up to 16 hours runtime",
@@ -118,7 +118,7 @@ const miningIndustryData: IndustryPageProps = {
     name: "Noise Reduction Ear Muffs",
     description:
       "High-performance ear muffs offering 30 dB noise reduction and an adjustable headband for all-day comfort.",
-    image: "https://ngratesc.sirv.com/basainc/muffs.jpg",
+    image: "https://cdn.clipond.com/basainc/muffs.jpg",
     category: "Hearing Protection",
     features: [
       "Noise Reduction Rating: 30 dB",
@@ -138,7 +138,7 @@ const miningIndustryData: IndustryPageProps = {
     name: "Industrial Respirator Mask",
     description:
       "Half-face respirator with dual cartridge ports for particulates, gases, and vapors, plus an exhalation valve.",
-    image: "https://ngratesc.sirv.com/basainc/engineering-working-factory_67123-436.jpg",
+    image: "https://cdn.clipond.com/basainc/engineering-working-factory_67123-436.jpg",
     category: "Respiratory Protection",
     features: [
       "Dual cartridge ports",
@@ -158,7 +158,7 @@ const miningIndustryData: IndustryPageProps = {
     name: "Full-Body Safety Harness",
     description:
       "Durable full-body harness featuring dorsal and frontal D-rings for fall arrest and work positioning.",
-    image: "https://ngratesc.sirv.com/basainc/wear-seat-belts-safety-harness-going-up-stairs-fixed-ladder-working-high-ground-industrial_483511-4508.avif",
+    image: "https://cdn.clipond.com/basainc/wear-seat-belts-safety-harness-going-up-stairs-fixed-ladder-working-high-ground-industrial_483511-4508.avif",
     category: "Fall Protection",
     features: [
       "Front & back D-rings",
@@ -178,7 +178,7 @@ const miningIndustryData: IndustryPageProps = {
     name: "Phynomic  Precision Gloves",
     description:
       "Seamless nitrile gloves offering tactile sensitivity, superior grip, and touchscreen compatibility.",
-    image: "https://ngratesc.sirv.com/basainc/2148773497.jpg",
+    image: "https://cdn.clipond.com/basainc/2148773497.jpg",
     category: "Hand Protection",
     features: [
       "Micro-foam nitrile palm",
@@ -198,7 +198,7 @@ const miningIndustryData: IndustryPageProps = {
     name: "Reflective Safety Jacket",
     description:
       "Water-resistant, high-visibility jacket with ANSI Class 3 reflective striping and multiple tool pockets.",
-    image: "https://ngratesc.sirv.com/basainc/reflec.jpg",
+    image: "https://cdn.clipond.com/basainc/reflec.jpg",
     category: "Visibility Apparel",
     features: [
       "ANSI Class 3 compliance",
