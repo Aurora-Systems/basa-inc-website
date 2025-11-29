@@ -163,19 +163,19 @@ export default function HomePage() {
                   title: "Global Mining Operations",
                   desc: "State-of-the-art equipment serving mining operations worldwide",
                   alt: "Mining Operations",
-                  img:"https://ngratesc.sirv.com/basainc/mining.avif"
+                  img:"https://cdn.clipond.com/basainc/mining.avif"
                 },
                 {
                   title: "Safety First",
                   desc: "Premium PPE ensuring maximum protection for workers",
                   alt: "Safety Equipment",
-                  img:"https://ngratesc.sirv.com/basainc/pexels-pixabay-209719.jpg"
+                  img:"https://cdn.clipond.com/basainc/pexels-pixabay-209719.jpg"
                 },
                 {
                   title: "Healthcare Excellence",
                   desc: "Medical supplies supporting healthcare facilities globally",
                   alt: "Medical Facilities",
-                  img:"https://ngratesc.sirv.com/basainc/medical.avif"
+                  img:"https://cdn.clipond.com/basainc/medical.avif"
                 },
               ].map((item, index) => (
                 <FadeInSection key={item.title} delay={index * 200}>
@@ -246,7 +246,7 @@ export default function HomePage() {
                 <div className="relative">
                   <div className="bg-white/60 backdrop-blur-2xl rounded-3xl  border border-white/30 shadow-2xl">
                     <img
-                      src="https://ngratesc.sirv.com/basainc/unnamed.webp?height=400&width=500"
+                      src="https://cdn.clipond.com/basainc/unnamed.webp?height=400&width=500"
                       alt="Basa Inc Headquarters"
                       className="w-full h-80 object-cover rounded-top rounded-top-3 mb-6"
                     /> 
