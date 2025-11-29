@@ -6,7 +6,7 @@ const ppeIndustryData: IndustryPageProps = {
   subtitle: "Safety Solutions",
   description:
     "Comprehensive PPE solutions ensuring maximum protection for workers across all industries. From head to toe protection, we provide certified safety equipment that meets the highest standards.",
-  heroImage: "https://ngratesc.sirv.com/basainc/pexels-pixabay-209719.jpg",
+  heroImage: "https://cdn.clipond.com/basainc/pexels-pixabay-209719.jpg",
 
   breadcrumbs: [
     { label: "Home", href: "/" },
@@ -18,7 +18,7 @@ const ppeIndustryData: IndustryPageProps = {
     title: "Protecting Your Most Valuable Asset",
     content:
       "At Basa Inc, we understand that your workforce is your most valuable asset. Our comprehensive range of Personal Protective Equipment (PPE) is designed to provide maximum protection without compromising comfort or productivity. From construction sites to chemical plants, our safety solutions meet and exceed international safety standards, ensuring your team can work confidently in any environment.",
-    image: "https://ngratesc.sirv.com/basainc/pexels-kindelmedia-8487788.jpg",
+    image: "https://cdn.clipond.com/basainc/pexels-kindelmedia-8487788.jpg",
     highlights: [
       "Head protection: Hard hats and safety helmets",
       "Eye and face protection: Safety glasses and shields",
@@ -92,7 +92,7 @@ const ppeIndustryData: IndustryPageProps = {
       name: "Safety Hard Hat",
       description:
         "Premium hard hat with advanced impact protection and comfortable suspension system for all-day wear.",
-      image: "https://ngratesc.sirv.com/basainc/2147843003.jpg",
+      image: "https://cdn.clipond.com/basainc/2147843003.jpg",
       category: "Head Protection",
       features: [
         "ANSI Z89.1 Type I certified",
@@ -106,7 +106,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "safety-glasses-sg-clear",
       name: "Safety Glasses",
       description: "Lightweight safety glasses with anti-fog coating and wraparound design for maximum eye protection.",
-      image: "https://ngratesc.sirv.com/basainc/102357.jpg",
+      image: "https://cdn.clipond.com/basainc/102357.jpg",
       category: "Eye Protection",
       features: [
         "ANSI Z87.1+ certified",
@@ -120,7 +120,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "respirator-n95-pro",
       name: "N95-Pro Respirator Mask",
       description: "High-efficiency particulate respirator providing excellent filtration and comfortable fit.",
-      image: "https://ngratesc.sirv.com/basainc/pexels-cdc-library-3993241.jpg",
+      image: "https://cdn.clipond.com/basainc/pexels-cdc-library-3993241.jpg",
       category: "Respiratory Protection",
       features: [
         "NIOSH N95 approved",
@@ -134,7 +134,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "work-gloves-wg-grip",
       name: "Work Gloves",
       description: "Durable work gloves with superior grip and cut resistance for various industrial applications.",
-      image: "https://ngratesc.sirv.com/basainc/2148773497.jpg",
+      image: "https://cdn.clipond.com/basainc/2148773497.jpg",
       category: "Hand Protection",
       features: [
         "Cut resistance Level A3",
@@ -148,7 +148,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "safety-vest-sv-hiviz",
       name: "Safety Vest",
       description: "High-visibility safety vest with reflective tape for enhanced visibility in low-light conditions.",
-      image: "https://ngratesc.sirv.com/basainc/19066.jpg",
+      image: "https://cdn.clipond.com/basainc/19066.jpg",
       category: "Body Protection",
       features: [
         "ANSI/ISEA 107 Class 2",
@@ -162,7 +162,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "safety-boots-sb-steel",
       name: "Safety Boots",
       description: "Steel toe safety boots with slip-resistant sole and electrical hazard protection.",
-      image: "https://ngratesc.sirv.com/basainc/pair-black-safety-leather-shoes-isolated_33867-1084.jpg",
+      image: "https://cdn.clipond.com/basainc/pair-black-safety-leather-shoes-isolated_33867-1084.jpg",
       category: "Foot Protection",
       features: [
         "ASTM F2413 certified",
@@ -176,7 +176,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "safety-boots-sb-steel-gum",
       name: "Gum boots",
       description: "Protection from the mud and rain, quality gum boots for farmers.",
-      image: "https://ngratesc.sirv.com/basainc/2148028896.jpg",
+      image: "https://cdn.clipond.com/basainc/2148028896.jpg",
       category: "Foot Protection",
       features: [
         "ASTM F2413 certified",
@@ -190,7 +190,7 @@ const ppeIndustryData: IndustryPageProps = {
       id: "pvc-aprons",
       name: "PVC Aprons",
       description: "Tough, waterproof, and built for messy work—protects against chemicals, oils, and splashes.",
-      image: "https://ngratesc.sirv.com/basainc/apron.jpg",
+      image: "https://cdn.clipond.com/basainc/apron.jpg",
       category: "Body Protection",
       features: [
         "ASTM F2413 certified",
